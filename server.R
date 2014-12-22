@@ -1,7 +1,6 @@
 
 require(grid) 
-require(gridExtra) 
-
+require(gridExtra)
 
 ratsLeo <- read.csv("ratings_Leo.csv", stringsAsFactors=FALSE)
 ratsLeo <- cleanImdbRaw(ratsLeo)
